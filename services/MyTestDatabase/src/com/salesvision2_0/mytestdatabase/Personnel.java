@@ -24,8 +24,8 @@ import javax.persistence.Table;
 public class Personnel implements Serializable {
 
     private Integer id;
-    private String name;
     private Integer cityCode;
+    private String name;
     private City city;
 
     @Id
@@ -39,15 +39,6 @@ public class Personnel implements Serializable {
         this.id = id;
     }
 
-    @Column(name = "`Name`", nullable = true, length = 15)
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @Column(name = "`City_code`", nullable = true, scale = 0, precision = 10)
     public Integer getCityCode() {
         return this.cityCode;
@@ -55,6 +46,15 @@ public class Personnel implements Serializable {
 
     public void setCityCode(Integer cityCode) {
         this.cityCode = cityCode;
+    }
+
+    @Column(name = "`Name`", nullable = true, length = 15)
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @ManyToOne(fetch = FetchType.EAGER)

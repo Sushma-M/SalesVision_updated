@@ -28,6 +28,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -52,7 +53,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -78,6 +80,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     } ],
@@ -91,7 +94,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10106",
       "virtual" : false
@@ -158,6 +162,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -182,7 +187,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -207,7 +213,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     } ],
@@ -221,7 +228,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10098",
       "virtual" : false
@@ -271,6 +279,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -296,6 +305,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -320,7 +330,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "date",
       "unique" : false
     } ],
@@ -334,7 +345,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10144",
       "virtual" : false
@@ -384,6 +396,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -408,7 +421,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     } ],
@@ -422,7 +436,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10092",
       "virtual" : false
@@ -472,6 +487,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -496,7 +512,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "date",
       "unique" : false
     }, {
@@ -522,6 +539,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -547,6 +565,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -572,6 +591,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -596,7 +616,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "boolean",
       "unique" : false
     } ],
@@ -610,7 +631,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10152",
       "virtual" : false
@@ -677,6 +699,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -701,7 +724,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -726,7 +750,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "date",
       "unique" : false
     }, {
@@ -751,7 +776,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "boolean",
       "unique" : false
     }, {
@@ -777,6 +803,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     } ],
@@ -790,7 +817,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10160",
       "virtual" : false
@@ -840,6 +868,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -865,6 +894,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -889,7 +919,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "date",
       "unique" : false
     }, {
@@ -915,6 +946,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -940,6 +972,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     } ],
@@ -953,7 +986,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10136",
       "virtual" : false
@@ -1054,6 +1088,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -1078,7 +1113,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     } ],
@@ -1092,7 +1128,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10122",
       "virtual" : false
@@ -1142,6 +1179,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -1166,7 +1204,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1192,6 +1231,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -1216,7 +1256,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1241,7 +1282,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1266,7 +1308,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1291,7 +1334,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1316,7 +1360,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1341,7 +1386,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     }, {
@@ -1366,7 +1412,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "string",
       "unique" : false
     } ],
@@ -1380,7 +1427,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10114",
       "virtual" : false
@@ -1464,6 +1512,7 @@
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : true
     }, {
@@ -1489,6 +1538,7 @@
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
+      "sequenceSchema" : null,
       "sqlType" : "number",
       "unique" : false
     }, {
@@ -1513,7 +1563,8 @@
       "partOfUniqueKey" : false,
       "precision" : 19,
       "primaryKey" : false,
-      "scale" : 0,
+      "scale" : 2,
+      "sequenceSchema" : null,
       "sqlType" : "date",
       "unique" : false
     } ],
@@ -1527,7 +1578,8 @@
       "composite" : false,
       "generator" : {
         "generatorType" : "identity",
-        "generatorValue" : null
+        "generatorValue" : null,
+        "schemaName" : null
       },
       "name" : "SYS_PK_10128",
       "virtual" : false
